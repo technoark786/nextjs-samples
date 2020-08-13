@@ -1,13 +1,12 @@
 import React from 'react';
-import useIndexStyles from '../src/index-styles';
-import { Card, Container } from '@material-ui/core';
+import { Container } from '@material-ui/core';
+import Card from '../components/Card';
 
 function Index() {
-    const classes = useIndexStyles({ bgColor: 'red' });
-
     return (
         <Container>
-            <Card className={classes.card}>
+            <Card title='Custom Card' bgColor='red'>
+                Custom card body
             </Card>
         </Container>
     );

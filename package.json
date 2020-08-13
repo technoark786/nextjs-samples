@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-samples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/technoark786/nextjs-samples.git",
+  "author": "Shabbir Vohra <shabbir@technoark.in>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/styles": "^4.10.0",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
